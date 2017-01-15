@@ -35,7 +35,9 @@ if (firstName.toLowerCase() == 'general' && lastName.toLowerCase !== 'assembly')
 // When the page has loaded
 $(function() {
 
-
+	//When the user clicks the image, run askQuestions
+	$('img').on('click', askQuestions)
+	
 	// When the user clicks an h3 element
 	$('h3').on('click', function() {
 
